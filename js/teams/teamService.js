@@ -36,7 +36,7 @@ app.service('teamService', function($http, $q){
 
 			console.log(rsponse)
 			dfd.resolve(response)
-		)};
+		)}; 
 	} return dfd.promise;
 
 });
